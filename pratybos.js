@@ -1,6 +1,6 @@
-// 61skaidre
+// 61 skaidre
 
-// 1. loop through array elements using for loop
+// 1:
 
 // const masyvas = ["elementasA", "ElementasB", "ElementasC", "ElementasD"];
 
@@ -8,7 +8,7 @@
 //   console.log(masyvas[i]);
 // }
 
-// 2. get sum of the array elements. use for loop and two different array methods
+// 2:
 
 // paprastas budas:
 
@@ -47,3 +47,11 @@
 //   initialValue,
 // );
 // console.log("masyvo elementu suma: ", sumWithInitial);
+
+// 3:
+
+const sakinys = "labas rytas gal norite rytines kavutes ar baltos degtines ?";
+const zodziai = sakiniuMasyvas.split(" "); // is sakinio sukuria masyva
+
+const lyginioIndeksoZodziai = [];
+const nelyginioIndeksoZodziai = [];
