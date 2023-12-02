@@ -69,7 +69,7 @@
 
 // 4.
 
-const masyvas = [5, 3, 2, 8, 13, 16, 18, 23, 27, 30];
+// const masyvas = [5, 3, 2, 8, 13, 16, 18, 23, 27, 30];
 
 // rasti maziausia metodas #1:
 
@@ -86,14 +86,14 @@ const masyvas = [5, 3, 2, 8, 13, 16, 18, 23, 27, 30];
 
 // rasti maziausia metodas #2:
 
-const maziausias = masyvas.reduce((maziausias, value, currentIndex) => {
-  if (value < masyvas[maziausias]) {
-    return currentIndex;
-  }
-  return maziausias;
-}, 0);
+// const maziausias = masyvas.reduce((maziausias, value, currentIndex) => {
+//   if (value < masyvas[maziausias]) {
+//     return currentIndex;
+//   }
+//   return maziausias;
+// }, 0);
 
-console.log(maziausias);
+// console.log(maziausias);
 
 // pasalinti 3 nuo maziausias metodas #1:
 
@@ -132,6 +132,8 @@ console.log(maziausias);
 
 // arba
 
-const masyvasPasalintas = [...masyvas];
-masyvasPasalintas.splice(maziausias, 4);
-console.log(masyvasPasalintas);
+// const masyvasPasalintas = [...masyvas];
+// masyvasPasalintas.splice(maziausias, 4);
+// console.log(masyvasPasalintas);
+
+// 62 skaidre
