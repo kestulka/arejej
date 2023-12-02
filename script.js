@@ -155,6 +155,40 @@
 // const {
 //   name,
 //   address: { city },
-// } = hero;
+// } = hero
 // console.log(name);
 // console.log(city);
+
+// function spreadEx(el1, el2, el3) {
+//   console.log(el1, el2, el3);
+// }
+// spreadEx(..."cbb");
+
+// function restEx(...elems) {
+//   console.log(elems);
+// }
+// restEx("c", "b", "b");
+
+// maps
+
+// const myMap = new Map();
+// myMap.set("name", "cat");
+// myMap.set("lastname", "big");
+// myMap.set("age", "senior");
+
+// console.log(myMap.get("name"));
+// console.log(myMap.get("lastname"));
+// console.log(myMap.get("age"));
+// console.log(myMap);
+
+// sets
+
+// const mySet = new Set();
+// mySet.add("kebabas");
+// mySet.add("su");
+// mySet.add("cesnakiniu");
+
+// console.log(mySet.has("kebabas"));
+// console.log(mySet.has("su"));
+// console.log(mySet.has("cesnaku"));
+// console.log(mySet);
