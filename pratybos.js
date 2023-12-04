@@ -218,9 +218,9 @@
 
 // filter + indexof
 
-// const uniqueGroceries = groceries.filter((item, index, array) => {
-//   return array.indexOf(item) === index;
-// });
+// const uniqueGroceries = groceries.filter((item, index, array) => 
+//   array.indexOf(item) === index
+// );
 // console.log("unikalus produktai: ");
 // uniqueGroceries.forEach((item) => {
 //   console.log(item);
@@ -268,30 +268,30 @@
 
 // 4uzd:
 
-const masyvas = [11, 13, 21, 23, 1, 3, 6, 9, 5, 2, 25, 27, 30];
+// const masyvas = [11, 13, 21, 23, 1, 3, 6, 9, 5, 2, 25, 27, 30];
 
-function GenerateRandomName() {
-  const names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank"];
-  const randomIndex = Math.floor(Math.random() * names.length); // is saraso paima random skaiciu ir pagal ji atitinkanti varda
-  return names[randomIndex]; // grazina varda pagal indeksa
-}
+// function GenerateRandomName() {
+//   const names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank"];
+//   const randomIndex = Math.floor(Math.random() * names.length); // is saraso paima random skaiciu ir pagal ji atitinkanti varda
+//   return names[randomIndex]; // grazina varda pagal indeksa
+// }
 
-function replaceEvenNumsWithNames(array) {
-  for (let i = 0; i < array.length; i++) {
-    // suka cikla kol baigiasi array elementai
-    if (array[i] % 2 === 0) {
-      // jei paduoto array'iaus indeksinis elementas yra lyginis tai sugeneruoja varda pagal praeita funkcija
-      array[i] = GenerateRandomName();
-    }
-  }
-  return array;
-}
+// function replaceEvenNumsWithNames(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     // suka cikla kol baigiasi array elementai
+//     if (array[i] % 2 === 0) {
+//       // jei paduoto array'iaus indeksinis elementas yra lyginis tai sugeneruoja varda pagal praeita funkcija
+//       array[i] = GenerateRandomName();
+//     }
+//   }
+//   return array;
+// }
 
-const pakeistasMasyvas = replaceEvenNumsWithNames(masyvas); // dvi funkcijas pritaikome savo paprastam array'iui ir priskiriam ji i nauja modifikuota
+// const pakeistasMasyvas = replaceEvenNumsWithNames(masyvas); // dvi funkcijas pritaikome savo paprastam array'iui ir priskiriam ji i nauja modifikuota
 
-const pakeistasMasyvasDidziosiomis = masyvas.map((element) => {
-  return typeof element === "string" ? element.toUpperCase() : element; // patikrinam ar array'iaus elementas yra string, jei taip, grazina elementa didziosiomis, jei ne, grazina toki koks buvo
-});
+// const pakeistasMasyvasDidziosiomis = masyvas.map((element) => {
+//   return typeof element === "string" ? element.toUpperCase() : element; // patikrinam ar array'iaus elementas yra string, jei taip, grazina elementa didziosiomis, jei ne, grazina toki koks buvo
+// });
 
-console.log(pakeistasMasyvas.join(" "));
-console.log(pakeistasMasyvasDidziosiomis.join(", ")); // paima visus array'iaus elementus ir padaro i stringa, paima argumenta kabutese(siuo atveju tarpa)
+// console.log(pakeistasMasyvas.join(" "));
+// console.log(pakeistasMasyvasDidziosiomis.join(", ")); // paima visus array'iaus elementus ir padaro i stringa, paima argumenta kabutese(siuo atveju tarpa)
