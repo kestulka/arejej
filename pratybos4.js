@@ -139,7 +139,35 @@ console.log(masyvas)
 
 // 6 uzd
 
+let suma = [45, 150, 225];
+let arbata2 = []
+let total2 = []
+function arbatpinigiai(moketa){
+    suma.forEach((element) => {
+        let arbata = 0;
+        let total = 0;
+        if (element < 50) {
+            arbata = element * 0.2;
+            total = arbata + element;
+            // arbata2.push(arbata)
+            // total2.push(total)
+        } else if(50 <= element && element < 200){
+            arbata = element * 0.15
+            total = arbata+element
+            // arbata2.push(arbata)
+            // total2.push(total)
+        }else{
+            arbata = element * 0.1
+            total = arbata + element;
+            // arbata2.push(arbata)
+            // total2.push(total)
+        }
+        arbata2.push(arbata)
+        total2.push(total)
+    })
+}
 
+arbatpinigiai(suma)
 
 
 
