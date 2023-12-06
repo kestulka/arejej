@@ -295,3 +295,4 @@
 
 // console.log(pakeistasMasyvas.join(" "));
 // console.log(pakeistasMasyvasDidziosiomis.join(", ")); // paima visus array'iaus elementus ir padaro i stringa, paima argumenta kabutese(siuo atveju tarpa)
+
